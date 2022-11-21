@@ -1,0 +1,10 @@
+'''addition'''
+a=int(input('enter a '))
+b=int(input('enter b '))
+c=a+b
+print(c)
+
+o/p---
+nter a 111
+enter b 22
+133
