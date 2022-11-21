@@ -1,0 +1,10 @@
+'''multiplication'''
+a=int(input('enter a '))
+b=int(input('enter b '))
+c=a/b
+print(int(c))
+
+o/p---
+enter a 25
+enter b 5
+5
