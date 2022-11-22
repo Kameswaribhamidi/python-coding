@@ -1,0 +1,27 @@
+'''read student data'''
+sno=int(input('enter no '))
+name=input('enter name ')
+gender=input('enter gender ')
+group=input('enter group ')
+add=input('enter address ')
+phn=int(input('enter phone number '))
+print('sno-',sno)
+print('name-',name)
+print('gender-',gender)
+print('group-',group)
+print('addess-',add)
+print('phone-',phn)
+
+o/p---
+enter no 1234
+enter name ram
+enter gender male
+enter group mscs
+enter address 7th lane stadium road
+enter phone number 1234567890
+sno- 1234
+name- ram
+gender- male
+group- mscs
+addess- 7th lane stadium road
+phone- 1234567890
