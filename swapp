@@ -1,0 +1,14 @@
+'''swap'''
+a=int(input('enter a '))
+b=int(input('enter b '))
+c=a
+a=b
+b=c
+print('a value ',a)
+print('b value ',b)
+
+o/p---
+enter a 10
+enter b 20
+a value  20
+b value  10
