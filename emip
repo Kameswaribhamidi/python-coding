@@ -1,0 +1,13 @@
+'''EMI'''
+p=int(input('enter princ amt '))
+t=int(input('enter time period '))
+r=float(input('enter rate of int '))
+si=(p*t*r)/100
+emi=(p*si)/(t*12)
+print('EMI ',emi)
+
+o/p---
+enter princ amt 50000
+enter time period 6
+enter rate of int 10.5
+EMI  21875000.0
