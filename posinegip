@@ -1,0 +1,10 @@
+#positive or negative
+a=int(input('a='))
+if a>0:    
+ print('positive')
+else:
+ print('negative')
+ 
+ o/p---
+ a=655
+ poitive
