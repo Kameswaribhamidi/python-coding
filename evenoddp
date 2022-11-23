@@ -1,0 +1,10 @@
+#even or odd
+a=int(input('a='))
+if a%2==0:
+ print('even')
+else:
+ print('odd')
+ 
+ o/p--
+ a=652
+ even
