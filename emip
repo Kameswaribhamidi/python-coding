@@ -3,7 +3,7 @@ p=int(input('enter princ amt '))
 t=int(input('enter time period '))
 r=float(input('enter rate of int '))
 si=(p*t*r)/100
-emi=(p*si)/(t*12)
+emi=(p+si)/(t*12)
 print('EMI ',emi)
 
 o/p---
