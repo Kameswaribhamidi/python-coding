@@ -1,0 +1,12 @@
+'''biggest of 3 nos'''
+a=int(input('a= '))
+b=int(input('b= '))
+ia>b:
+ print('a is big')
+else:
+  print('b is big')
+  
+  o/p---
+  a= 5
+b= 4
+a is big
