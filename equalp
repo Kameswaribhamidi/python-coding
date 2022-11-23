@@ -1,0 +1,12 @@
+'''equal or not'''
+a=int(input('a= '))
+b=int(input('b= '))
+if a==b:
+ print('equal')
+else:
+ print('not equal')
+ 
+ o/p---
+ a=5
+ b=5
+ equal
