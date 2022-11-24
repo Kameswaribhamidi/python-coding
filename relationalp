@@ -1,4 +1,4 @@
-#arithematic operators
+#relational operators
 a=int(input())
 b=int(input())
 print('greater-',a>b)
