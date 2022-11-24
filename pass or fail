@@ -1,0 +1,26 @@
+#pass or fail
+sno=int(input('enter no-'))
+name=input('enter name-')
+grp=input('enter group-')
+s1=int(input('enter sub1 marks-'))
+s2=int(input('enter sub2 marks-'))
+s3=int(input('enter sub3 marks-'))
+print('sno-',sno)
+print('name-',name)
+print('group-',grp)
+if s1>=35 and s2>=35 and s3>=35:
+ print('PASS')
+else:
+ print('FAIL')
+ 
+ o/p---
+ enter no-1234
+enter name-ram
+enter group-mscs
+enter sub1 marks-35
+enter sub2 marks-44
+enter sub3 marks-56
+sno- 1234
+name- ram
+group- mscs
+PASS
