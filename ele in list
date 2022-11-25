@@ -1,0 +1,12 @@
+#element in list
+list=[12,4,7,55,8,7,11]
+i=int(input('enter  i value-'))
+if i in list:
+  print('element is in list')
+else:
+  print('element is not in list')
+
+
+o/p---
+enter  i value-4
+element is in list
