@@ -1,0 +1,10 @@
+#min element in list
+list=[1,2,3,5,6,8,9,7,4]
+min=list[0]
+for i in list:
+  if i<min:
+      min=i
+print('min element= ',min)
+
+o/p---
+min element= 1
