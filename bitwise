@@ -1,0 +1,13 @@
+#bitwise operators
+a=int(input('enter a '))
+b=int(input('enter b '))
+print(a&b)
+print(a|b)
+print(a^b)
+
+o/p---
+enter a 5
+enter b 4
+4 
+5
+1
