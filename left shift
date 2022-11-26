@@ -1,0 +1,25 @@
+#left shift
+a=int(input('enter number '))
+print(a<<1)
+print(a<<2)
+print(a<<3)
+print(a<<4)
+print(a<<5)
+print(a<<6)
+print(a<<7)
+print(a<<8)
+print(a<<9)
+print(a<<10)
+
+o/p---
+enter number 10
+20
+40
+80
+160
+320
+640
+1280
+2560
+5120
+10240
