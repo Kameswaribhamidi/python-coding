@@ -1,0 +1,13 @@
+#pin valid
+pin=1972
+x=int(input('enter value= '))
+if x==pin:
+   print('transaction running successfully...')
+else:
+   print('incorrect pin number')
+   print('please try again')
+
+
+o/p---
+enter value=1972
+transaction running successfully...
