@@ -1,0 +1,15 @@
+#atm process
+bal=int(input('enter bal '))
+amnt=int(input('enter amnt '))
+crd=bal+amnt
+print('credited amount=',amnt)
+print('main balance=',crd)
+
+
+o/p---
+enter bal 1000
+enter amnt 4000
+credited amount= 4000
+main balance= 5000
+
+[Process comple
