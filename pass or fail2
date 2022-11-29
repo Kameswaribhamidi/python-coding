@@ -1,0 +1,24 @@
+#student details
+sno=int(input('enter sno-'))
+sname=input('enter name-')
+s1=int(input('enter s1-'))
+s2=int(input('enter s2-'))
+s3=int(input('enter s3-'))
+print('sno=',sno)
+print('sname=',sname)
+print('result=')
+if s1>=35:
+  if s2>=35:
+     if s3>=35:
+      print('PASS')
+else:
+  print('FAIL')    
+  o/p---enter sno-1234
+enter name-ram
+enter s1-44
+enter s2-78
+enter s3-35
+sno= 1234
+sname= ram
+result=
+PASS
