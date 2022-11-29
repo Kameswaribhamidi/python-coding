@@ -1,0 +1,39 @@
+# generate employee tax
+eno=int(input('enter no.-'))
+ename=input('enter name-')
+edes=input('enter designation-')
+bsal=int(input('enter basic salary-'))
+ta=int(input('enter ta-'))
+da=int(input('enter da-'))
+hra=int(input('enter hra-'))
+nsal=bsal+hra+ta+da
+print('employee no.=',eno)
+print('employee name=',ename)
+print('employee designation=',edes)
+print('tax=')
+if nsal>100000:
+  t=nsal*10/100
+elif nsal>50000:
+  t=nsal*7/100
+elif nsal>40000:
+  t=nsal*4/100
+elif nsal>20000:
+  t=nsal*2/100
+elif nsal<20000:
+   print('no tax')
+print(t)
+
+
+o/p---
+enter no.-1234
+enter name-ram
+enter designation-manmager
+enter basic salary-20000
+enter ta-100
+enter da-100
+enter hra-100
+employee no.= 1234
+employee name= ram
+employee designation= manmager
+tax=
+406.0
