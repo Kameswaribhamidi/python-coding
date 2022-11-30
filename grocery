@@ -1,0 +1,45 @@
+#groery store bill
+a=75
+b=87
+c=55
+d=200
+e=64
+cphn=int(input('enter phone no.-'))
+cname=input('enter name-')
+add=input('enter address-')
+q1=int(input('enter item 1-'))
+q2=int(input('enter item 2-'))
+q3=int(input('enter item 3-'))
+q4=int(input('enter item 4-'))
+q5=int(input('enter item 5-'))
+b=(a*q1)+(b*q2)+(c*q3)+(d*q4)+(e*q5)
+if b>3000:
+   t=b*5/100
+elif b>2000:
+   t=b*7/100
+elif b>1000:
+   t=b*10/100
+elif b>500:
+   t=b*15/100
+else:                 
+   t=100
+print('name= ',cname)
+print('phone no.= ',cphn)
+print('address= ',add)
+print('bill= ',b)
+print('tax= ',t)
+
+o/p---
+enter phone no.-1234567890
+enter name-ram
+enter address-kakinada
+enter item 1-5
+enter item 2-3
+enter item 3-7
+enter item 4-1
+enter item 5-0
+name=  ram
+phone no.=  1234567890
+address=  kakinada
+bill=  1221
+tax=  122.1
