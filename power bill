@@ -1,0 +1,54 @@
+#elctricity bill
+dt=input('enter date- ')
+bno=int(input('enter bill no- '))
+ac=input('enter area code- ')
+area=input('enter area- ')
+sname=input('enter name- ')
+u=int(input('enter no.of units- '))
+uc=float(input('unit charge in rs.- '))
+pr=int(input('enter previous reading- '))
+prr=int(input('enter present reading- '))
+ed=int(input('enter eduty charges- '))
+di=int(input('enter duty interest- '))
+ach=int(input('enter add charges- '))
+amt=int(input('enter adj. amount- '))
+ttl=(uc*u)+ed+di+ach+amt
+print('date= ',dt)
+print('bill no.= ',bno)
+print('area code= ',ac)
+print('name= ',sname)
+print('no.of uniite= ',u)
+print('previous reading= ',pr)
+print('present reading= ',prr)
+print('eduty charges= ',ed)
+print('duty interest= ',di)
+print('add. charges= ',ach)
+print('adj.amount= ',amt)
+print('total bill= ',ttl)
+
+o/p---
+enter date- 4/3/2000
+enter bill no- 1234567890
+enter area code- 1ahg32
+enter area- kkd
+enter name- ram
+enter no.of units- 356
+unit charge in rs.- 5.6
+enter previous reading- 243654
+enter present reading- 455564
+enter eduty charges- 200
+enter duty interest- 400
+enter add charges- 250
+enter adj. amount- 250
+date=  4/3/2000
+bill no.=  1234567890
+area code=  1ahg32
+name=  ram
+no.of uniite=  356
+previous reading=  243654
+present reading=  455564
+eduty charges=  200
+duty interest=  400
+add. charges=  250
+adj.amount=  250
+total bill=  3093.6
