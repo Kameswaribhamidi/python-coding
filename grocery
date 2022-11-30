@@ -22,12 +22,12 @@ elif b>1000:
 elif b>500:
    t=b*15/100
 else:                 
-   t=100
+   t=100  
 print('name= ',cname)
 print('phone no.= ',cphn)
 print('address= ',add)
 print('bill= ',b)
-print('tax= ',t)
+print('tax= ',t+b)
 
 o/p---
 enter phone no.-1234567890
@@ -42,4 +42,4 @@ name=  ram
 phone no.=  1234567890
 address=  kakinada
 bill=  1221
-tax=  122.1
+tax=  1343.1
