@@ -1,0 +1,53 @@
+METHOD-1
+
+#leap year function
+def leap(yr):
+  if yr%4==0 and yr%100!=0:
+   print('Yes')
+  elif yr%400==0:
+    print('Yes')
+  else:
+    print('No')
+yr=int(input())
+leap(yr)    
+
+o/p---
+2004 
+Yes
+
+METHOD-
+
+#leap year function
+def leap(yr):
+  if yr%4==0 and yr%100!=0:
+   return'Yes'
+  elif yr%400==0:
+    return 'Yes'
+  else:
+    return 'No'
+yr=int(input())
+print(leap(yr))    
+
+o/p---
+2005
+No
+
+METHOD-3
+
+#leap year function
+def leap(yr):
+  if yr%4==0 and yr%100!=0:
+   return True
+  elif yr%400==0:
+    return True
+  else:
+    return False
+yr=int(input())
+if(leap(yr)):
+   print('Yes')
+else:   
+   print('No')
+   
+   o/p---
+   4000
+   Yes
