@@ -1,0 +1,47 @@
+METHOD-1
+
+#eligible to vote function
+def vote(n):
+  if n>18:
+    print('Yes')
+  else:
+    print('no')
+n=int(input())    
+vote(n)  
+
+o/p---
+19
+Yes
+
+METHOD-2
+
+#eligible to vote function
+def vote(n):
+  if n>18:
+    return 'Yes'
+  else:
+    return 'no'
+n=int(input())    
+print(vote(n))
+
+o/p---
+18 
+no
+
+METHOD-3
+
+#eligible to vote function
+def vote(n):
+  if n>18:
+    return True
+  else:
+    return False
+n=int(input())    
+if(vote(n)):
+   print('Yes')
+else:
+    print('no')
+    
+    o/p---
+    15
+    no
