@@ -1,0 +1,22 @@
+#diff btw l and s
+n=int(input())
+num=int(input('enter value- '))
+max=min=num
+i=1
+while(i<=n-1):
+   num=int(input('enter value- '))
+   if num>max:
+       max=num
+   elif num<min:
+       min=num
+   i=i+1
+print('result- ',max-min)   
+
+o/p---
+5
+enter value- 67
+enter value- 45
+enter value- 9
+enter value- 23
+enter value- 34
+result-  58
