@@ -1,0 +1,13 @@
+#list print nos.
+n=int(input())
+l=list(map(int,input().split()))
+for i in range(0,n+1):
+    if i%2==0:
+        print(l[i])
+        
+o/p---
+5
+1 2 3 4 5 
+1
+3
+5
