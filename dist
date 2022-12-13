@@ -1,0 +1,22 @@
+#districts
+ap=[]
+n=[]
+k=[]
+n.append('srikakulam')
+n.append('vizayanagaram')
+n.append('vizag')
+k.append('east godavari')
+k.append('west godavari')
+ap.append('krishna')
+ap.append('guntur')
+ap.append('nellore')
+ap.append('prakasam')
+ap.append('kurnool')
+ap.append('chittor')
+ap.extend(n)
+ap.extend(k)
+print(ap)
+
+o/p---
+['krishna', 'guntur', 'nellore', 'prakasam', 'kurnool', 'chittor',
+'srikakulam', 'vizayanagaram', 'vizag', 'east godavari', 'west godavari']
