@@ -1,0 +1,13 @@
+#remove duplicates
+n=int(input())
+l=list(map(int,input().split()))
+m=[]
+for i in l:
+   if i not in m:
+     m.append(i)
+print(m)    
+
+o/p---
+5
+2 3 4 6 2 
+[2,3,4,6]
