@@ -1,0 +1,19 @@
+#find duplicates
+n=int(input())
+l=list(map(int,input().split()))
+m=[]
+c=0
+for i in l:
+  if i not in m:
+    m.append(i)
+  else:
+    c=c+1
+if c>0:
+  print('YES')
+else:
+  print('NO')      
+  
+  o/p---
+  5
+  1 3 5 2 1
+  YES
