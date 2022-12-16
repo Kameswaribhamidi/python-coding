@@ -1,0 +1,10 @@
+#string operations
+s=input('enter a string-')
+c=s.isalpha()
+print(c)    
+
+o/p---
+enter a string-hello
+True
+enter a string-dg33
+False
