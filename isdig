@@ -1,0 +1,12 @@
+#string operations
+s=input('enter a string-')
+c=s.isdigit()
+print(c)   
+
+o/p---
+enter a string-gfd
+False
+enter a string-gfh2
+False
+enter a string-2567
+True
