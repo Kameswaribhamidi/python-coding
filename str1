@@ -1,0 +1,13 @@
+#string operations
+s=input('enter a string-')
+print(len(s))
+print(s.upper())
+print(s.lower())
+print(s.swapcase())
+
+o/p---
+enter a string-Hello
+5
+HELLO
+hello
+hELLO
