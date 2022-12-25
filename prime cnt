@@ -1,0 +1,17 @@
+#prime conut in series
+def prime(n):
+  c=0
+  for i in range(1,n+1):
+    if n%i==0:
+       c=c+1
+  return c
+n=int(input())
+p=0
+for i in range(1,n+1):
+  if(prime(i)==2):
+    p=p+1
+print('count=',p)
+
+o/p---
+5
+count= 3
