@@ -1,0 +1,17 @@
+#all primes sum in series
+def prime(n):
+  c=0
+  for i in range(1,n+1):
+    if n%i==0:
+       c=c+1
+  return c
+n=int(input())
+p=0
+for i in range(1,n+1):
+  if(prime(i)==2):
+    p=p+i
+print('sum=',p)
+
+o/p---
+5
+sum= 10
