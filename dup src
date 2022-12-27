@@ -1,0 +1,15 @@
+#search duplicate values index
+n=int(input())
+l=list(map(int,input().split()))
+x=int(input())
+f=0
+for i in range(0,n):
+  if l[i]==x:
+    f=f+1
+    print(i,end=' ')
+    
+o/p---
+5
+1 2 3 2 2
+2
+1 3 4
