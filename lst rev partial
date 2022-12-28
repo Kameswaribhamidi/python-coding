@@ -1,0 +1,17 @@
+#reverse right half of list
+l=list(map(int,input().split()))
+x=len(l)
+n=[]
+k=[]
+for i in range(0,x):
+   if l[i]<=(x+1)//2:
+      n.append(l[i])
+   else:
+      k.append(l[i])
+k.sort(reverse=True)
+n.extend(k) 
+print(n)
+
+o/p---
+1 2 3 4 5
+[1, 2, 3, 5, 4]
