@@ -1,0 +1,28 @@
+#binary search
+n=int(input())
+l=list(map(int,input().split()))
+x=int(input())
+low=0
+high=n-1
+mid=(low+high)//2
+f=0
+while high>=low:
+  if x>l[mid]:
+    low=mid+1
+  elif x==l[mid]:
+    f=1
+    break
+  else:
+    high=mid-1
+    mid=(low+high)//2
+if f==1:
+   print(x,'found at',mid,'index')         
+else:
+  print('not found')
+  
+  
+  o/p---
+  5
+  1 2 3 4 5
+  2
+  2 found at 1 index
