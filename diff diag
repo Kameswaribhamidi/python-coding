@@ -1,0 +1,29 @@
+#difference betwen diagnol sums
+n=int(input())
+a=[]
+s1=0
+s2=0
+for i in range(0,n):
+  l=[]
+  for j in range(0,n):
+     x=int(input())
+     l.append(x)
+  a.append(l)
+for i in range (0,n):
+  for j in range (0,n):
+    if i==j:
+      s1=s1+a[i][j]
+for i in range (0,n):
+  for j in range (0,n):
+    if i+j==n-1:
+      s2=s2+a[i][j]    
+print(s2-s1)
+
+
+o/p---
+2
+1
+2
+3
+4
+2
