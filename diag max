@@ -1,0 +1,28 @@
+#maximum element from both diagnols
+n=int(input())
+a=[]
+max=0
+for i in range(0,n):
+  l=[]
+  for j in range(0,n):
+     x=int(input())
+     l.append(x)
+  a.append(l)
+a[0][0]=max
+for i in range (0,n):
+  for j in range (0,n):
+    if i==j: 
+      if a[i][j]>max:
+         max=a[i][j]
+    elif i+j==n-1:
+      if a[i][j]>max:
+         max=a[i][j]
+print(max)    
+
+o/p---
+2
+12
+56
+77
+21
+77
