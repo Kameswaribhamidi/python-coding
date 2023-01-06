@@ -1,0 +1,12 @@
+#difference between max and min in last k vlues in list
+l=list(map(int,input().split()))
+k=int(input())
+l.sort()
+a=l[-k:]
+print(a)
+print(max(a)-min(a))
+
+o/p---
+12 34 6 24 77
+2
+43
