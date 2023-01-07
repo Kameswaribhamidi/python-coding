@@ -1,0 +1,13 @@
+#str func both mail and phn
+p=input()
+x=int(p[0])
+e=input()
+if e.endswith('@gmail.com') or e.endswith('@yahoo.com') or e.endswith('@adc.aditya.ac.in'):
+    if len(p)==10 and x>=8:
+       print('registration successful')
+else:
+  print('check your details')    
+  
+  o/p---
+  9965324567
+  abc.yahoo.com
