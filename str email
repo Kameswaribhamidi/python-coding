@@ -1,0 +1,12 @@
+#email company identification  str fun
+e=input()
+if e.endswith('@gmail.com'):
+  print('you are using google account')
+elif e.endswith('@yahoo.com'):
+  print('you are using yahoo account')
+elif e.endswith('@adc.aditya.ac.in'):
+  print('you are using aditya aaccount') 
+  
+  o/p---
+  sffdgh@adc.aditya.ac.in
+  you are using aditya aaccount
