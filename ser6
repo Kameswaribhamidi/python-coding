@@ -1,0 +1,13 @@
+#print name in series
+n=input()
+l=len(n)
+for i in range(0,l+1):
+  for j in range(0,i):
+    print(n[j],end='')
+  print()  
+  
+  o/p---
+  KAM
+  K
+  KA
+  KAM
