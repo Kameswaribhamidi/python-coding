@@ -1,0 +1,17 @@
+#print name in series
+n=input()
+l=len(n)
+for i in range(l,0,-1):
+  for j in range(0,i):
+    print(n[j],end='')
+  print()  
+
+
+o/p---
+aditya
+aditya
+adity
+adit
+adi
+ad
+a
